@@ -1,0 +1,22 @@
+[project]
+name = "wordlist-refinery"
+version = "0.1.0"
+description = "High-performance wordlist refinement CLI"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.2",
+    "pyarrow",
+    "scipy",
+    "typer[all]",
+    "rich"
+]
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+wordlist-refinery = "wordlist_refinery.main:app"
