@@ -661,5 +661,3 @@ Planned and completed features for future releases.
 ## Conclusion
 
 What started as a personal exercise became a robust engine for large-scale password analysis. WordlistRefinery is the result of curiosity, discipline, and the desire to build something meaningful  and, of course, it will continue to evolve.
-
-                                                                                                        — Antonio Vitale
