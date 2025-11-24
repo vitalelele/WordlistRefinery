@@ -111,6 +111,7 @@ Usage: wordlist-refinery [OPTIONS] INPUT_FILE
 
 Ingest a wordlist, apply filters, and output a refined dataset.
 ```
+<img width="1670" height="395" alt="image" src="https://github.com/user-attachments/assets/290d36de-0997-4fce-bf95-f46382e58e57" />
 
 If you see this, the installation was successful.
 
@@ -358,7 +359,7 @@ Output (ASCII):
 |  1 | Tr0ub4dor&3              | 3.28      | Weak       | ✓       | ✓       |
 ...
 ```
-
+<img width="765" height="393" alt="image" src="https://github.com/user-attachments/assets/62296d41-8b6e-4671-83e3-b76414f84f13" />
 ---
 
 ## Example 5 — Full Metadata Extraction (CSV for Large Sets)
@@ -407,17 +408,8 @@ wordlist-refinery rockyou.txt --add-metadata --output-file refined_rockyou.csv
 
 Console output (preview):
 
-```
-WordlistRefinery - Chunk Preview
-┏━━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━━━┓
-┃ Password ┃ Entropy ┃ Strength  ┃ Upper ┃ Lower ┃ Digit ┃ Special ┃
-┡━━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━╇━━━━━━━╇━━━━━━━╇━━━━━━━━━┩
-│ monkey   │  2.58   │ Weak      │   ·   │   ✓   │   ·   │    ·    │
-│ iloveyou │  2.75   │ Weak      │   ·   │   ✓   │   ·   │    ·    │
-│ qwerty   │  2.58   │ Weak      │   ·   │   ✓   │   ·   │    ·    │
-...
-Preview truncated: showing first 20 rows of this chunk.
-```
+<img width="764" height="618" alt="image" src="https://github.com/user-attachments/assets/21977bcf-6b18-4a7c-af0c-7e00c8d2ece5" />
+
 
 Output:
 
@@ -434,6 +426,10 @@ WordlistRefinery was designed to process extremely large password datasets while
 ### Streaming Processing Model
 The tool never loads the entire wordlist into memory. Instead, it processes the input in fixed-size chunks. This approach prevents RAM exhaustion and allows the tool to operate on wordlists that exceed several gigabytes in size. Chunked processing also isolates parsing errors, allowing the tool to skip malformed lines without stopping execution.
 
+<div align="center">
+[ Streaming ] ---> [ Chunk Loader ] ---> [ Analyzer ] ---> [ Output Writer ]
+</div>
+
 ### PyArrow-Backed String Storage
 Pandas' PyArrow string backend is used to represent password data. Unlike Python object strings, Arrow arrays store text in contiguous memory blocks, reducing overhead and enabling SIMD-accelerated operations. This choice results in significantly lower memory usage and improved performance for vectorized operations.
 
@@ -448,6 +444,28 @@ The output format adapts automatically based on dataset size:
 - Users may request Markdown output for documentation and reporting.
 
 This strategy ensures optimal usability without compromising speed.
+
+<div align="center">
+<pre>
+
+Traditional tools:
++---------------------------+
+| Load full file            |
+| → 1.5 GB in RAM (!)       |
+| → crash                   |
++---------------------------+
+
+
+WordlistRefinery:
++---------------------------+
+| Read 100k rows → ~12 MB   |
+| Next 100k rows → ~12 MB   |
+| ... constant usage        |
++---------------------------+
+
+</pre>
+</div>
+
 
 ### Fault-Tolerant Line Parsing
 Real-world datasets often contain malformed or non-UTF8 lines. The loader sanitizes and ignores invalid bytes, while preserving all valid passwords. This prevents crashes during long-running operations and ensures that processing can continue uninterrupted.
@@ -494,14 +512,10 @@ pytest -q
 If all tests pass, you should see output similar to:
 
 ```
-7 passed in 1.23s
+11 passed in 0.23s
 ```
 
-Screenshots may be added here to document correct execution of the test suite:
-
-```
-![Pytest Screenshot](docs/img/pytest_screenshot.png)
-```
+<img width="979" height="266" alt="image" src="https://github.com/user-attachments/assets/7ed0fc4e-839f-4afa-ba70-d0224dc6360f" />
 
 ### Test Layout
 
