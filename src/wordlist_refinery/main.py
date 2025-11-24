@@ -17,7 +17,6 @@ Author: Antonio Vitale
 
 import time
 from pathlib import Path
-from typing import Optional
 
 import pandas as pd
 import typer
@@ -58,6 +57,7 @@ def dataframe_to_ascii_table(df: pd.DataFrame) -> str:
 
     return tabulate(df, headers="keys", tablefmt="grid")
 
+
 # markdown table renderer
 def dataframe_to_markdown_table(df: pd.DataFrame) -> str:
     """
@@ -85,7 +85,6 @@ def dataframe_to_markdown_table(df: pd.DataFrame) -> str:
         rows.append("|" + "|".join(vals) + "|")
 
     return header + sep + "\n".join(rows)
-
 
 # main CLI command
 @app.command()
@@ -124,8 +123,9 @@ def analyze(
 
     console.print(f"[bold green]Starting process on:[/bold green] {input_path}")
 
+    # Truncate output file before starting (we always append chunk-by-chunk)
     with output_path.open("w", encoding="utf-8") as f:
-        pass  # file will be appended chunk-by-chunk
+        pass
 
     total_passwords = 0
     start_time = time.time()
@@ -170,6 +170,8 @@ def analyze(
                     PasswordAnalyzer.classify_strength
                 )
 
+                MAX_PREVIEW_ROWS = 20
+
                 table = Table(
                     title="WordlistRefinery - Chunk Preview",
                     show_header=True,
@@ -183,7 +185,9 @@ def analyze(
                 table.add_column("Digit", justify="center")
                 table.add_column("Special", justify="center")
 
-                for _, row in chunk_df.head(20).iterrows():
+                preview_df = chunk_df.head(MAX_PREVIEW_ROWS)
+
+                for _, row in preview_df.iterrows():
                     table.add_row(
                         str(row["password"]),
                         f"{row['entropy']:.2f}",
@@ -196,7 +200,14 @@ def analyze(
 
                 console.print(table)
 
-            # 5. Output writing
+                if len(chunk_df) > MAX_PREVIEW_ROWS:
+                    console.print(
+                        f"[bold yellow]Preview truncated:[/bold yellow] "
+                        f"showing first {MAX_PREVIEW_ROWS} rows of this chunk. "
+                        f"Full results have been written to [bold]{output_path}[/bold]."
+                    )
+
+            # Output writing
             if add_metadata:
                 if markdown_table:
                     md = dataframe_to_markdown_table(chunk_df)
@@ -225,7 +236,7 @@ def analyze(
         raise typer.Exit(1)
 
     elapsed = time.time() - start_time
-    console.print(f"[bold green]Success![/bold_green] Saved to {output_path}")
+    console.print(f"[bold green]Success![/bold green] Saved to {output_path}")
     console.print(f"Total retained: {total_passwords}")
     console.print(f"Time elapsed: {elapsed:.2f} seconds")
 
