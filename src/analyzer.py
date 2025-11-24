@@ -132,3 +132,29 @@ class PasswordAnalyzer:
         df['has_special'] = s_col.str.contains(cls.HAS_SPECIAL, regex=True)
         
         return df
+
+    @staticmethod
+    def classify_strength(entropy_val: float) -> str:
+        """
+        Classifies password strength based on entropy bits.
+        
+        Thresholds are heuristic based on common brute-force capabilities:
+        - < 2.5 bits: Very Weak (Repetitive, e.g., 'aaaaa')
+        - 2.5 - 3.5 bits: Weak (Common words)
+        - 3.5 - 4.5 bits: Moderate
+        - > 4.5 bits: Strong (Random-looking)
+        
+        Args:
+            entropy_val (float): The entropy value.
+            
+        Returns:
+            str: Classification label.
+        """
+        if entropy_val < 2.5:
+            return "Very Weak"
+        elif entropy_val < 3.5:
+            return "Weak"
+        elif entropy_val < 4.5:
+            return "Moderate"
+        else:
+            return "Strong"
