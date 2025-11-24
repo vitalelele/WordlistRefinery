@@ -32,3 +32,8 @@ analysis.csv
 # --- Optionally ignore large wordlists ---
 *.txt
 *.csv
+
+# EXCEPT the examples folder
+!examples/
+!examples/*.txt
+!examples/*.csv

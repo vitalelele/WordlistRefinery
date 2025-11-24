@@ -1,0 +1,1001 @@
+password,entropy,has_upper,has_lower,has_digit,has_special,strength
+123456,2.584962500721156,False,False,True,False,Weak
+12345,2.3219280948873626,False,False,True,False,Very Weak
+123456789,3.1699250014423126,False,False,True,False,Weak
+password,2.75,False,True,False,False,Weak
+iloveyou,2.75,False,True,False,False,Weak
+princess,2.75,False,True,False,False,Weak
+1234567,2.807354922057605,False,False,True,False,Weak
+rockyou,2.521640636343319,False,True,False,False,Weak
+12345678,3.0,False,False,True,False,Weak
+abc123,2.584962500721156,False,True,True,False,Weak
+nicole,2.584962500721156,False,True,False,False,Weak
+daniel,2.584962500721156,False,True,False,False,Weak
+babygirl,2.75,False,True,False,False,Weak
+monkey,2.584962500721156,False,True,False,False,Weak
+lovely,2.251629167387823,False,True,False,False,Very Weak
+jessica,2.521640636343319,False,True,False,False,Weak
+654321,2.584962500721156,False,False,True,False,Weak
+michael,2.807354922057605,False,True,False,False,Weak
+ashley,2.584962500721156,False,True,False,False,Weak
+qwerty,2.584962500721156,False,True,False,False,Weak
+111111,0.0,False,False,True,False,Very Weak
+iloveu,2.584962500721156,False,True,False,False,Weak
+000000,0.0,False,False,True,False,Very Weak
+michelle,2.5,False,True,False,False,Weak
+tigger,2.251629167387823,False,True,False,False,Very Weak
+sunshine,2.5,False,True,False,False,Weak
+chocolate,2.7254805569978675,False,True,False,False,Weak
+password1,2.9477027792200907,False,True,True,False,Weak
+soccer,2.251629167387823,False,True,False,False,Very Weak
+anthony,2.521640636343319,False,True,False,False,Weak
+friends,2.807354922057605,False,True,False,False,Weak
+butterfly,2.9477027792200907,False,True,False,False,Weak
+purple,2.251629167387823,False,True,False,False,Very Weak
+angel,2.3219280948873626,False,True,False,False,Very Weak
+jordan,2.584962500721156,False,True,False,False,Weak
+liverpool,2.7254805569978684,False,True,False,False,Weak
+justin,2.584962500721156,False,True,False,False,Weak
+loveme,2.251629167387823,False,True,False,False,Very Weak
+fuckyou,2.521640636343319,False,True,False,False,Weak
+123123,1.584962500721156,False,False,True,False,Very Weak
+football,2.5,False,True,False,False,Weak
+secret,2.251629167387823,False,True,False,False,Very Weak
+andrea,2.251629167387823,False,True,False,False,Very Weak
+carlos,2.584962500721156,False,True,False,False,Weak
+jennifer,2.5,False,True,False,False,Weak
+joshua,2.584962500721156,False,True,False,False,Weak
+bubbles,2.1280852788913944,False,True,False,False,Very Weak
+1234567890,3.321928094887362,False,False,True,False,Weak
+superman,3.0,False,True,False,False,Weak
+hannah,1.584962500721156,False,True,False,False,Very Weak
+amanda,1.7924812503605783,False,True,False,False,Very Weak
+loveyou,2.521640636343319,False,True,False,False,Weak
+pretty,2.251629167387823,False,True,False,False,Very Weak
+basketball,2.7219280948873625,False,True,False,False,Weak
+andrew,2.584962500721156,False,True,False,False,Weak
+angels,2.584962500721156,False,True,False,False,Weak
+tweety,1.9182958340544896,False,True,False,False,Very Weak
+flower,2.584962500721156,False,True,False,False,Weak
+playboy,2.521640636343319,False,True,False,False,Weak
+hello,1.9219280948873625,False,True,False,False,Very Weak
+elizabeth,2.9477027792200907,False,True,False,False,Weak
+hottie,2.251629167387823,False,True,False,False,Very Weak
+tinkerbell,2.9219280948873627,False,True,False,False,Weak
+charlie,2.807354922057605,False,True,False,False,Weak
+samantha,2.4056390622295667,False,True,False,False,Very Weak
+barbie,2.251629167387823,False,True,False,False,Very Weak
+chelsea,2.521640636343319,False,True,False,False,Weak
+lovers,2.584962500721156,False,True,False,False,Weak
+teamo,2.3219280948873626,False,True,False,False,Very Weak
+jasmine,2.807354922057605,False,True,False,False,Weak
+brandon,2.521640636343319,False,True,False,False,Weak
+666666,0.0,False,False,True,False,Very Weak
+shadow,2.584962500721156,False,True,False,False,Weak
+melissa,2.521640636343318,False,True,False,False,Weak
+eminem,1.9182958340544896,False,True,False,False,Very Weak
+matthew,2.521640636343319,False,True,False,False,Weak
+robert,2.251629167387823,False,True,False,False,Very Weak
+danielle,2.5,False,True,False,False,Weak
+forever,2.2359263506290326,False,True,False,False,Very Weak
+family,2.584962500721156,False,True,False,False,Weak
+jonathan,2.5,False,True,False,False,Weak
+987654321,3.1699250014423126,False,False,True,False,Weak
+computer,3.0,False,True,False,False,Weak
+whatever,2.75,False,True,False,False,Weak
+dragon,2.584962500721156,False,True,False,False,Weak
+vanessa,2.235926350629033,False,True,False,False,Very Weak
+cookie,2.251629167387823,False,True,False,False,Very Weak
+naruto,2.584962500721156,False,True,False,False,Weak
+summer,2.251629167387823,False,True,False,False,Very Weak
+sweety,2.251629167387823,False,True,False,False,Very Weak
+spongebob,2.7254805569978684,False,True,False,False,Weak
+joseph,2.584962500721156,False,True,False,False,Weak
+junior,2.584962500721156,False,True,False,False,Weak
+softball,2.75,False,True,False,False,Weak
+taylor,2.584962500721156,False,True,False,False,Weak
+yellow,2.251629167387823,False,True,False,False,Very Weak
+daniela,2.521640636343319,False,True,False,False,Weak
+lauren,2.584962500721156,False,True,False,False,Weak
+mickey,2.584962500721156,False,True,False,False,Weak
+princesa,3.0,False,True,False,False,Weak
+alexandra,2.6416041678685938,False,True,False,False,Weak
+alexis,2.584962500721156,False,True,False,False,Weak
+jesus,1.9219280948873625,False,True,False,False,Very Weak
+estrella,2.5,False,True,False,False,Weak
+miguel,2.584962500721156,False,True,False,False,Weak
+william,2.2359263506290334,False,True,False,False,Very Weak
+thomas,2.584962500721156,False,True,False,False,Weak
+beautiful,2.9477027792200907,False,True,False,False,Weak
+mylove,2.584962500721156,False,True,False,False,Weak
+angela,2.251629167387823,False,True,False,False,Very Weak
+poohbear,2.75,False,True,False,False,Weak
+patrick,2.807354922057605,False,True,False,False,Weak
+iloveme,2.521640636343318,False,True,False,False,Weak
+sakura,2.251629167387823,False,True,False,False,Very Weak
+adrian,2.251629167387823,False,True,False,False,Very Weak
+alexander,2.7254805569978675,False,True,False,False,Weak
+destiny,2.807354922057605,False,True,False,False,Weak
+christian,2.9477027792200907,False,True,False,False,Weak
+121212,1.0,False,False,True,False,Very Weak
+sayang,2.251629167387823,False,True,False,False,Very Weak
+america,2.521640636343319,False,True,False,False,Weak
+dancer,2.584962500721156,False,True,False,False,Weak
+monica,2.584962500721156,False,True,False,False,Weak
+richard,2.521640636343319,False,True,False,False,Weak
+112233,1.584962500721156,False,False,True,False,Very Weak
+princess1,2.9477027792200907,False,True,True,False,Weak
+555555,0.0,False,False,True,False,Very Weak
+diamond,2.521640636343319,False,True,False,False,Weak
+carolina,2.75,False,True,False,False,Weak
+steven,2.251629167387823,False,True,False,False,Very Weak
+rangers,2.521640636343319,False,True,False,False,Weak
+louise,2.584962500721156,False,True,False,False,Weak
+orange,2.584962500721156,False,True,False,False,Weak
+789456,2.584962500721156,False,False,True,False,Weak
+999999,0.0,False,False,True,False,Very Weak
+shorty,2.584962500721156,False,True,False,False,Weak
+11111,0.0,False,False,True,False,Very Weak
+nathan,1.9182958340544896,False,True,False,False,Very Weak
+snoopy,2.251629167387823,False,True,False,False,Very Weak
+gabriel,2.807354922057605,False,True,False,False,Weak
+hunter,2.584962500721156,False,True,False,False,Weak
+cherry,2.251629167387823,False,True,False,False,Very Weak
+killer,2.251629167387823,False,True,False,False,Very Weak
+sandra,2.251629167387823,False,True,False,False,Very Weak
+alejandro,2.9477027792200907,False,True,False,False,Weak
+buster,2.584962500721156,False,True,False,False,Weak
+george,1.9182958340544896,False,True,False,False,Very Weak
+brittany,2.75,False,True,False,False,Weak
+alejandra,2.6416041678685938,False,True,False,False,Weak
+patricia,2.5,False,True,False,False,Weak
+rachel,2.584962500721156,False,True,False,False,Weak
+tequiero,2.75,False,True,False,False,Weak
+7777777,0.0,False,False,True,False,Very Weak
+cheese,1.7924812503605783,False,True,False,False,Very Weak
+159753,2.251629167387823,False,False,True,False,Very Weak
+arsenal,2.521640636343319,False,True,False,False,Weak
+dolphin,2.807354922057605,False,True,False,False,Weak
+antonio,2.2359263506290326,False,True,False,False,Very Weak
+heather,2.2359263506290334,False,True,False,False,Very Weak
+david,1.9219280948873625,False,True,False,False,Very Weak
+ginger,2.251629167387823,False,True,False,False,Very Weak
+stephanie,2.9477027792200907,False,True,False,False,Weak
+peanut,2.584962500721156,False,True,False,False,Weak
+blink182,3.0,False,True,True,False,Weak
+sweetie,2.1280852788913944,False,True,False,False,Very Weak
+222222,0.0,False,False,True,False,Very Weak
+beauty,2.584962500721156,False,True,False,False,Weak
+987654,2.584962500721156,False,False,True,False,Weak
+victoria,2.75,False,True,False,False,Weak
+honey,2.3219280948873626,False,True,False,False,Very Weak
+00000,0.0,False,False,True,False,Very Weak
+fernando,2.75,False,True,False,False,Weak
+pokemon,2.521640636343319,False,True,False,False,Weak
+maggie,2.251629167387823,False,True,False,False,Very Weak
+corazon,2.521640636343319,False,True,False,False,Weak
+chicken,2.521640636343319,False,True,False,False,Weak
+pepper,1.459147917027245,False,True,False,False,Very Weak
+cristina,2.75,False,True,False,False,Weak
+rainbow,2.807354922057605,False,True,False,False,Weak
+kisses,1.7924812503605783,False,True,False,False,Very Weak
+manuel,2.584962500721156,False,True,False,False,Weak
+myspace,2.807354922057605,False,True,False,False,Weak
+rebelde,2.1280852788913944,False,True,False,False,Very Weak
+angel1,2.584962500721156,False,True,True,False,Weak
+ricardo,2.521640636343319,False,True,False,False,Weak
+babygurl,2.75,False,True,False,False,Weak
+heaven,2.251629167387823,False,True,False,False,Very Weak
+55555,0.0,False,False,True,False,Very Weak
+baseball,2.25,False,True,False,False,Very Weak
+martin,2.584962500721156,False,True,False,False,Weak
+greenday,2.75,False,True,False,False,Weak
+november,2.75,False,True,False,False,Weak
+alyssa,1.9182958340544896,False,True,False,False,Very Weak
+madison,2.807354922057605,False,True,False,False,Weak
+mother,2.584962500721156,False,True,False,False,Weak
+123321,1.584962500721156,False,False,True,False,Very Weak
+123abc,2.584962500721156,False,True,True,False,Weak
+mahalkita,2.6416041678685938,False,True,False,False,Weak
+batman,2.251629167387823,False,True,False,False,Very Weak
+september,2.6416041678685938,False,True,False,False,Weak
+december,2.4056390622295667,False,True,False,False,Very Weak
+morgan,2.584962500721156,False,True,False,False,Weak
+mariposa,2.75,False,True,False,False,Weak
+maria,1.9219280948873625,False,True,False,False,Very Weak
+gabriela,2.75,False,True,False,False,Weak
+iloveyou2,2.9477027792200907,False,True,True,False,Weak
+bailey,2.584962500721156,False,True,False,False,Weak
+jeremy,2.251629167387823,False,True,False,False,Very Weak
+pamela,2.251629167387823,False,True,False,False,Very Weak
+kimberly,3.0,False,True,False,False,Weak
+gemini,2.251629167387823,False,True,False,False,Very Weak
+shannon,2.128085278891394,False,True,False,False,Very Weak
+pictures,3.0,False,True,False,False,Weak
+asshole,2.521640636343319,False,True,False,False,Weak
+sophie,2.584962500721156,False,True,False,False,Weak
+jessie,1.9182958340544896,False,True,False,False,Very Weak
+hellokitty,2.9219280948873627,False,True,False,False,Weak
+claudia,2.521640636343319,False,True,False,False,Weak
+babygirl1,2.9477027792200907,False,True,True,False,Weak
+angelica,2.75,False,True,False,False,Weak
+austin,2.584962500721156,False,True,False,False,Weak
+mahalko,2.521640636343319,False,True,False,False,Weak
+victor,2.584962500721156,False,True,False,False,Weak
+horses,2.251629167387823,False,True,False,False,Very Weak
+tiffany,2.521640636343319,False,True,False,False,Weak
+mariana,2.1280852788913944,False,True,False,False,Very Weak
+eduardo,2.521640636343319,False,True,False,False,Weak
+andres,2.584962500721156,False,True,False,False,Weak
+courtney,3.0,False,True,False,False,Weak
+booboo,0.9182958340544894,False,True,False,False,Very Weak
+kissme,2.251629167387823,False,True,False,False,Very Weak
+harley,2.584962500721156,False,True,False,False,Weak
+ronaldo,2.521640636343319,False,True,False,False,Weak
+iloveyou1,2.9477027792200907,False,True,True,False,Weak
+precious,3.0,False,True,False,False,Weak
+october,2.521640636343319,False,True,False,False,Weak
+inuyasha,2.75,False,True,False,False,Weak
+peaches,2.521640636343319,False,True,False,False,Weak
+veronica,3.0,False,True,False,False,Weak
+chris,2.3219280948873626,False,True,False,False,Very Weak
+888888,0.0,False,False,True,False,Very Weak
+adriana,2.1280852788913944,False,True,False,False,Very Weak
+cutie,2.3219280948873626,False,True,False,False,Very Weak
+james,2.3219280948873626,False,True,False,False,Very Weak
+banana,1.459147917027245,False,True,False,False,Very Weak
+prince,2.584962500721156,False,True,False,False,Weak
+friend,2.584962500721156,False,True,False,False,Weak
+jesus1,2.251629167387823,False,True,True,False,Very Weak
+crystal,2.807354922057605,False,True,False,False,Weak
+celtic,2.251629167387823,False,True,False,False,Very Weak
+zxcvbnm,2.807354922057605,False,True,False,False,Weak
+edward,2.251629167387823,False,True,False,False,Very Weak
+oliver,2.584962500721156,False,True,False,False,Weak
+diana,1.9219280948873625,False,True,False,False,Very Weak
+samsung,2.521640636343319,False,True,False,False,Weak
+freedom,2.521640636343319,False,True,False,False,Weak
+angelo,2.584962500721156,False,True,False,False,Weak
+kenneth,2.2359263506290334,False,True,False,False,Very Weak
+master,2.584962500721156,False,True,False,False,Weak
+scooby,2.251629167387823,False,True,False,False,Very Weak
+carmen,2.584962500721156,False,True,False,False,Weak
+456789,2.584962500721156,False,False,True,False,Weak
+sebastian,2.7254805569978684,False,True,False,False,Weak
+rebecca,2.2359263506290326,False,True,False,False,Very Weak
+jackie,2.584962500721156,False,True,False,False,Weak
+spiderman,3.1699250014423126,False,True,False,False,Weak
+christopher,3.095795255000934,False,True,False,False,Weak
+karina,2.251629167387823,False,True,False,False,Very Weak
+johnny,2.251629167387823,False,True,False,False,Very Weak
+hotmail,2.807354922057605,False,True,False,False,Weak
+0123456789,3.321928094887362,False,False,True,False,Weak
+school,2.251629167387823,False,True,False,False,Very Weak
+barcelona,2.9477027792200907,False,True,False,False,Weak
+august,2.251629167387823,False,True,False,False,Very Weak
+orlando,2.521640636343319,False,True,False,False,Weak
+samuel,2.584962500721156,False,True,False,False,Weak
+cameron,2.807354922057605,False,True,False,False,Weak
+slipknot,3.0,False,True,False,False,Weak
+cutiepie,2.5,False,True,False,False,Weak
+monkey1,2.807354922057605,False,True,True,False,Weak
+50cent,2.584962500721156,False,True,True,False,Weak
+bonita,2.584962500721156,False,True,False,False,Weak
+kevin,2.3219280948873626,False,True,False,False,Very Weak
+bitch,2.3219280948873626,False,True,False,False,Very Weak
+maganda,2.1280852788913944,False,True,False,False,Very Weak
+babyboy,1.8423709931771086,False,True,False,False,Very Weak
+casper,2.584962500721156,False,True,False,False,Weak
+brenda,2.584962500721156,False,True,False,False,Weak
+adidas,1.9182958340544896,False,True,False,False,Very Weak
+kitten,2.251629167387823,False,True,False,False,Very Weak
+karen,2.3219280948873626,False,True,False,False,Very Weak
+mustang,2.807354922057605,False,True,False,False,Weak
+isabel,2.584962500721156,False,True,False,False,Weak
+natalie,2.521640636343319,False,True,False,False,Weak
+cuteako,2.807354922057605,False,True,False,False,Weak
+javier,2.584962500721156,False,True,False,False,Weak
+789456123,3.1699250014423126,False,False,True,False,Weak
+123654,2.584962500721156,False,False,True,False,Weak
+sarah,1.9219280948873625,False,True,False,False,Very Weak
+bowwow,1.459147917027245,False,True,False,False,Very Weak
+portugal,3.0,False,True,False,False,Weak
+laura,1.9219280948873625,False,True,False,False,Very Weak
+777777,0.0,False,False,True,False,Very Weak
+marvin,2.584962500721156,False,True,False,False,Weak
+denise,2.251629167387823,False,True,False,False,Very Weak
+tigers,2.584962500721156,False,True,False,False,Weak
+volleyball,2.521928094887362,False,True,False,False,Weak
+jasper,2.584962500721156,False,True,False,False,Weak
+rockstar,2.75,False,True,False,False,Weak
+january,2.521640636343319,False,True,False,False,Weak
+fuckoff,2.1280852788913944,False,True,False,False,Very Weak
+alicia,1.9182958340544896,False,True,False,False,Very Weak
+nicholas,3.0,False,True,False,False,Weak
+flowers,2.807354922057605,False,True,False,False,Weak
+cristian,2.75,False,True,False,False,Weak
+tintin,1.584962500721156,False,True,False,False,Very Weak
+bianca,2.251629167387823,False,True,False,False,Very Weak
+chrisbrown,3.121928094887363,False,True,False,False,Weak
+chester,2.521640636343319,False,True,False,False,Weak
+101010,1.0,False,False,True,False,Very Weak
+smokey,2.584962500721156,False,True,False,False,Weak
+silver,2.584962500721156,False,True,False,False,Weak
+internet,2.25,False,True,False,False,Very Weak
+sweet,1.9219280948873625,False,True,False,False,Very Weak
+strawberry,2.8464393446710154,False,True,False,False,Weak
+garfield,3.0,False,True,False,False,Weak
+dennis,2.251629167387823,False,True,False,False,Very Weak
+panget,2.584962500721156,False,True,False,False,Weak
+francis,2.807354922057605,False,True,False,False,Weak
+cassie,2.251629167387823,False,True,False,False,Very Weak
+benfica,2.807354922057605,False,True,False,False,Weak
+love123,2.807354922057605,False,True,True,False,Weak
+696969,1.0,False,False,True,False,Very Weak
+asdfgh,2.584962500721156,False,True,False,False,Weak
+lollipop,1.9056390622295665,False,True,False,False,Very Weak
+olivia,2.251629167387823,False,True,False,False,Very Weak
+cancer,2.251629167387823,False,True,False,False,Very Weak
+camila,2.251629167387823,False,True,False,False,Very Weak
+qwertyuiop,3.321928094887362,False,True,False,False,Weak
+superstar,2.7254805569978684,False,True,False,False,Weak
+harrypotter,2.8453509366224368,False,True,False,False,Weak
+ihateyou,3.0,False,True,False,False,Weak
+charles,2.807354922057605,False,True,False,False,Weak
+monique,2.807354922057605,False,True,False,False,Weak
+midnight,2.75,False,True,False,False,Weak
+vincent,2.521640636343319,False,True,False,False,Weak
+christine,2.9477027792200907,False,True,False,False,Weak
+apples,2.251629167387823,False,True,False,False,Very Weak
+scorpio,2.521640636343319,False,True,False,False,Weak
+jordan23,3.0,False,True,True,False,Weak
+lorena,2.584962500721156,False,True,False,False,Weak
+andreea,2.235926350629033,False,True,False,False,Very Weak
+mercedes,2.4056390622295667,False,True,False,False,Very Weak
+katherine,2.9477027792200907,False,True,False,False,Weak
+charmed,2.807354922057605,False,True,False,False,Weak
+abigail,2.2359263506290334,False,True,False,False,Very Weak
+rafael,2.251629167387823,False,True,False,False,Very Weak
+icecream,2.5,False,True,False,False,Weak
+mexico,2.584962500721156,False,True,False,False,Weak
+brianna,2.235926350629033,False,True,False,False,Very Weak
+nirvana,2.235926350629033,False,True,False,False,Very Weak
+aaliyah,2.1280852788913944,False,True,False,False,Very Weak
+pookie,2.251629167387823,False,True,False,False,Very Weak
+johncena,2.75,False,True,False,False,Weak
+lovelove,2.0,False,True,False,False,Very Weak
+fucker,2.584962500721156,False,True,False,False,Weak
+abcdef,2.584962500721156,False,True,False,False,Weak
+benjamin,2.75,False,True,False,False,Weak
+131313,1.0,False,False,True,False,Very Weak
+gangsta,2.2359263506290334,False,True,False,False,Very Weak
+brooke,2.251629167387823,False,True,False,False,Very Weak
+333333,0.0,False,False,True,False,Very Weak
+hiphop,1.9182958340544896,False,True,False,False,Very Weak
+aaaaaa,0.0,False,True,False,False,Very Weak
+mybaby,1.9182958340544896,False,True,False,False,Very Weak
+sergio,2.584962500721156,False,True,False,False,Weak
+welcome,2.521640636343319,False,True,False,False,Weak
+metallica,2.725480556997868,False,True,False,False,Weak
+julian,2.584962500721156,False,True,False,False,Weak
+travis,2.584962500721156,False,True,False,False,Weak
+myspace1,3.0,False,True,True,False,Weak
+babyblue,2.4056390622295667,False,True,False,False,Very Weak
+sabrina,2.521640636343319,False,True,False,False,Weak
+michael1,3.0,False,True,True,False,Weak
+jeffrey,2.2359263506290334,False,True,False,False,Very Weak
+stephen,2.521640636343319,False,True,False,False,Weak
+love,2.0,False,True,False,False,Very Weak
+dakota,2.251629167387823,False,True,False,False,Very Weak
+catherine,2.9477027792200907,False,True,False,False,Weak
+badboy,2.251629167387823,False,True,False,False,Very Weak
+fernanda,2.5,False,True,False,False,Weak
+westlife,2.75,False,True,False,False,Weak
+blondie,2.807354922057605,False,True,False,False,Weak
+sasuke,2.251629167387823,False,True,False,False,Very Weak
+smiley,2.584962500721156,False,True,False,False,Weak
+jackson,2.807354922057605,False,True,False,False,Weak
+simple,2.584962500721156,False,True,False,False,Weak
+melanie,2.521640636343319,False,True,False,False,Weak
+steaua,2.251629167387823,False,True,False,False,Very Weak
+dolphins,3.0,False,True,False,False,Weak
+roberto,2.2359263506290334,False,True,False,False,Very Weak
+fluffy,1.7924812503605783,False,True,False,False,Very Weak
+teresa,2.251629167387823,False,True,False,False,Very Weak
+piglet,2.584962500721156,False,True,False,False,Weak
+ronald,2.584962500721156,False,True,False,False,Weak
+slideshow,2.9477027792200907,False,True,False,False,Weak
+asdfghjkl,3.1699250014423126,False,True,False,False,Weak
+minnie,1.9182958340544896,False,True,False,False,Very Weak
+newyork,2.807354922057605,False,True,False,False,Weak
+jason,2.3219280948873626,False,True,False,False,Very Weak
+raymond,2.807354922057605,False,True,False,False,Weak
+santiago,2.75,False,True,False,False,Weak
+jayson,2.584962500721156,False,True,False,False,Weak
+88888888,0.0,False,False,True,False,Very Weak
+5201314,2.521640636343319,False,False,True,False,Weak
+jerome,2.251629167387823,False,True,False,False,Very Weak
+gandako,2.521640636343319,False,True,False,False,Weak
+muffin,2.251629167387823,False,True,False,False,Very Weak
+gatita,1.9182958340544896,False,True,False,False,Very Weak
+babyko,2.251629167387823,False,True,False,False,Very Weak
+246810,2.584962500721156,False,False,True,False,Weak
+sweetheart,2.6464393446710157,False,True,False,False,Weak
+chivas,2.584962500721156,False,True,False,False,Weak
+ladybug,2.807354922057605,False,True,False,False,Weak
+kitty,1.9219280948873625,False,True,False,False,Very Weak
+popcorn,2.2359263506290334,False,True,False,False,Very Weak
+alberto,2.807354922057605,False,True,False,False,Weak
+valeria,2.521640636343319,False,True,False,False,Weak
+cookies,2.521640636343319,False,True,False,False,Weak
+leslie,1.9182958340544896,False,True,False,False,Very Weak
+jenny,1.9219280948873625,False,True,False,False,Very Weak
+nicole1,2.807354922057605,False,True,True,False,Weak
+12345678910,3.277613436819116,False,False,True,False,Weak
+leonardo,2.75,False,True,False,False,Weak
+jayjay,1.584962500721156,False,True,False,False,Very Weak
+liliana,1.950212064914747,False,True,False,False,Very Weak
+dexter,2.251629167387823,False,True,False,False,Very Weak
+sexygirl,3.0,False,True,False,False,Weak
+232323,1.0,False,False,True,False,Very Weak
+amores,2.584962500721156,False,True,False,False,Weak
+rockon,2.251629167387823,False,True,False,False,Very Weak
+christ,2.584962500721156,False,True,False,False,Weak
+babydoll,2.5,False,True,False,False,Weak
+anthony1,2.75,False,True,True,False,Weak
+marcus,2.584962500721156,False,True,False,False,Weak
+bitch1,2.584962500721156,False,True,True,False,Weak
+fatima,2.251629167387823,False,True,False,False,Very Weak
+miamor,2.251629167387823,False,True,False,False,Very Weak
+lover,2.3219280948873626,False,True,False,False,Very Weak
+chris1,2.584962500721156,False,True,True,False,Weak
+single,2.584962500721156,False,True,False,False,Weak
+eeyore,1.7924812503605783,False,True,False,False,Very Weak
+lalala,1.0,False,True,False,False,Very Weak
+252525,1.0,False,False,True,False,Very Weak
+scooter,2.521640636343319,False,True,False,False,Weak
+natasha,2.1280852788913944,False,True,False,False,Very Weak
+skittles,2.5,False,True,False,False,Weak
+brooklyn,2.75,False,True,False,False,Weak
+colombia,2.75,False,True,False,False,Weak
+159357,2.251629167387823,False,False,True,False,Very Weak
+teddybear,2.7254805569978675,False,True,False,False,Weak
+winnie,1.9182958340544896,False,True,False,False,Very Weak
+happy,1.9219280948873625,False,True,False,False,Very Weak
+manutd,2.584962500721156,False,True,False,False,Weak
+123456a,2.807354922057605,False,True,True,False,Weak
+britney,2.807354922057605,False,True,False,False,Weak
+katrina,2.521640636343319,False,True,False,False,Weak
+christina,2.9477027792200907,False,True,False,False,Weak
+pasaway,2.1280852788913944,False,True,False,False,Very Weak
+cocacola,1.9056390622295665,False,True,False,False,Very Weak
+mahal,1.9219280948873625,False,True,False,False,Very Weak
+grace,2.3219280948873626,False,True,False,False,Very Weak
+linda,2.3219280948873626,False,True,False,False,Very Weak
+albert,2.584962500721156,False,True,False,False,Weak
+tatiana,1.8423709931771088,False,True,False,False,Very Weak
+london,1.9182958340544896,False,True,False,False,Very Weak
+cantik,2.584962500721156,False,True,False,False,Weak
+0123456,2.807354922057605,False,False,True,False,Weak
+lakers,2.584962500721156,False,True,False,False,Weak
+marie,2.3219280948873626,False,True,False,False,Very Weak
+teiubesc,2.75,False,True,False,False,Weak
+147258369,3.1699250014423126,False,False,True,False,Weak
+charlotte,2.9477027792200907,False,True,False,False,Weak
+natalia,2.1280852788913944,False,True,False,False,Very Weak
+francisco,2.9477027792200907,False,True,False,False,Weak
+amorcito,2.75,False,True,False,False,Weak
+smile,2.3219280948873626,False,True,False,False,Very Weak
+paola,1.9219280948873625,False,True,False,False,Very Weak
+angelito,3.0,False,True,False,False,Weak
+manchester,3.121928094887363,False,True,False,False,Weak
+hahaha,1.0,False,True,False,False,Very Weak
+elephant,2.75,False,True,False,False,Weak
+mommy1,1.7924812503605783,False,True,True,False,Very Weak
+shelby,2.584962500721156,False,True,False,False,Weak
+147258,2.584962500721156,False,False,True,False,Weak
+kelsey,2.251629167387823,False,True,False,False,Very Weak
+genesis,2.2359263506290326,False,True,False,False,Very Weak
+amigos,2.584962500721156,False,True,False,False,Weak
+snickers,2.75,False,True,False,False,Weak
+xavier,2.584962500721156,False,True,False,False,Weak
+turtle,2.251629167387823,False,True,False,False,Very Weak
+marlon,2.584962500721156,False,True,False,False,Weak
+linkinpark,2.7219280948873625,False,True,False,False,Weak
+claire,2.584962500721156,False,True,False,False,Weak
+stupid,2.584962500721156,False,True,False,False,Weak
+147852,2.584962500721156,False,False,True,False,Weak
+marina,2.251629167387823,False,True,False,False,Very Weak
+garcia,2.251629167387823,False,True,False,False,Very Weak
+fuckyou1,2.75,False,True,True,False,Weak
+diego,2.3219280948873626,False,True,False,False,Very Weak
+brandy,2.584962500721156,False,True,False,False,Weak
+letmein,2.521640636343319,False,True,False,False,Weak
+hockey,2.584962500721156,False,True,False,False,Weak
+444444,0.0,False,False,True,False,Very Weak
+sharon,2.584962500721156,False,True,False,False,Weak
+bonnie,2.251629167387823,False,True,False,False,Very Weak
+spider,2.584962500721156,False,True,False,False,Weak
+iverson,2.807354922057605,False,True,False,False,Weak
+andrei,2.584962500721156,False,True,False,False,Weak
+justine,2.807354922057605,False,True,False,False,Weak
+frankie,2.807354922057605,False,True,False,False,Weak
+pimpin,1.9182958340544896,False,True,False,False,Very Weak
+disney,2.584962500721156,False,True,False,False,Weak
+rabbit,2.251629167387823,False,True,False,False,Very Weak
+54321,2.3219280948873626,False,False,True,False,Very Weak
+fashion,2.807354922057605,False,True,False,False,Weak
+soccer1,2.521640636343319,False,True,True,False,Weak
+red123,2.584962500721156,False,True,True,False,Weak
+bestfriend,3.121928094887363,False,True,False,False,Weak
+england,2.521640636343319,False,True,False,False,Weak
+hermosa,2.807354922057605,False,True,False,False,Weak
+456123,2.584962500721156,False,False,True,False,Weak
+qazwsx,2.584962500721156,False,True,False,False,Weak
+bandit,2.584962500721156,False,True,False,False,Weak
+danny,1.9219280948873625,False,True,False,False,Very Weak
+allison,2.521640636343319,False,True,False,False,Weak
+emily,2.3219280948873626,False,True,False,False,Very Weak
+102030,1.7924812503605783,False,False,True,False,Very Weak
+lucky1,2.584962500721156,False,True,True,False,Weak
+sporting,3.0,False,True,False,False,Weak
+miranda,2.521640636343319,False,True,False,False,Weak
+dallas,1.9182958340544896,False,True,False,False,Very Weak
+hearts,2.584962500721156,False,True,False,False,Weak
+camille,2.521640636343318,False,True,False,False,Weak
+wilson,2.584962500721156,False,True,False,False,Weak
+potter,2.251629167387823,False,True,False,False,Very Weak
+pumpkin,2.521640636343319,False,True,False,False,Weak
+iloveu2,2.807354922057605,False,True,True,False,Weak
+number1,2.807354922057605,False,True,True,False,Weak
+katie,2.3219280948873626,False,True,False,False,Very Weak
+guitar,2.584962500721156,False,True,False,False,Weak
+212121,1.0,False,False,True,False,Very Weak
+truelove,2.75,False,True,False,False,Weak
+jayden,2.584962500721156,False,True,False,False,Weak
+savannah,2.1556390622295667,False,True,False,False,Very Weak
+hottie1,2.521640636343319,False,True,True,False,Weak
+phoenix,2.807354922057605,False,True,False,False,Weak
+monster,2.807354922057605,False,True,False,False,Weak
+player,2.584962500721156,False,True,False,False,Weak
+ganda,1.9219280948873625,False,True,False,False,Very Weak
+people,1.9182958340544896,False,True,False,False,Very Weak
+scotland,3.0,False,True,False,False,Weak
+nelson,2.251629167387823,False,True,False,False,Very Weak
+jasmin,2.584962500721156,False,True,False,False,Weak
+timothy,2.521640636343319,False,True,False,False,Weak
+onelove,2.2359263506290334,False,True,False,False,Very Weak
+ilovehim,2.75,False,True,False,False,Weak
+shakira,2.521640636343319,False,True,False,False,Weak
+estrellita,2.7219280948873625,False,True,False,False,Weak
+bubble,1.7924812503605783,False,True,False,False,Very Weak
+smiles,2.251629167387823,False,True,False,False,Very Weak
+brandon1,2.75,False,True,True,False,Weak
+sparky,2.584962500721156,False,True,False,False,Weak
+barney,2.584962500721156,False,True,False,False,Weak
+sweets,1.9182958340544896,False,True,False,False,Very Weak
+parola,2.251629167387823,False,True,False,False,Very Weak
+evelyn,2.251629167387823,False,True,False,False,Very Weak
+familia,2.2359263506290326,False,True,False,False,Very Weak
+love12,2.584962500721156,False,True,True,False,Weak
+nikki,1.5219280948873626,False,True,False,False,Very Weak
+motorola,2.4056390622295667,False,True,False,False,Very Weak
+florida,2.807354922057605,False,True,False,False,Weak
+omarion,2.521640636343319,False,True,False,False,Weak
+monkeys,2.807354922057605,False,True,False,False,Weak
+loverboy,2.75,False,True,False,False,Weak
+elijah,2.584962500721156,False,True,False,False,Weak
+joanna,1.9182958340544896,False,True,False,False,Very Weak
+canada,1.7924812503605783,False,True,False,False,Very Weak
+ronnie,2.251629167387823,False,True,False,False,Very Weak
+mamita,1.9182958340544896,False,True,False,False,Very Weak
+emmanuel,2.5,False,True,False,False,Weak
+thunder,2.807354922057605,False,True,False,False,Weak
+999999999,0.0,False,False,True,False,Very Weak
+broken,2.584962500721156,False,True,False,False,Weak
+rodrigo,2.2359263506290334,False,True,False,False,Very Weak
+maryjane,2.75,False,True,False,False,Weak
+westside,2.5,False,True,False,False,Weak
+california,2.9219280948873627,False,True,False,False,Weak
+lucky,2.3219280948873626,False,True,False,False,Very Weak
+mauricio,2.75,False,True,False,False,Weak
+yankees,2.521640636343318,False,True,False,False,Weak
+jackass,2.235926350629033,False,True,False,False,Very Weak
+jamaica,2.1280852788913944,False,True,False,False,Very Weak
+justin1,2.807354922057605,False,True,True,False,Weak
+amigas,2.251629167387823,False,True,False,False,Very Weak
+preciosa,3.0,False,True,False,False,Weak
+shopping,2.75,False,True,False,False,Weak
+flores,2.584962500721156,False,True,False,False,Weak
+mariah,2.251629167387823,False,True,False,False,Very Weak
+matrix,2.584962500721156,False,True,False,False,Weak
+isabella,2.5,False,True,False,False,Weak
+tennis,2.251629167387823,False,True,False,False,Very Weak
+trinity,2.2359263506290334,False,True,False,False,Very Weak
+jorge,2.3219280948873626,False,True,False,False,Very Weak
+sunflower,3.1699250014423126,False,True,False,False,Weak
+kathleen,2.75,False,True,False,False,Weak
+bradley,2.807354922057605,False,True,False,False,Weak
+cupcake,2.521640636343319,False,True,False,False,Weak
+hector,2.584962500721156,False,True,False,False,Weak
+martinez,3.0,False,True,False,False,Weak
+elaine,2.251629167387823,False,True,False,False,Very Weak
+robbie,2.251629167387823,False,True,False,False,Very Weak
+friendster,2.9219280948873627,False,True,False,False,Weak
+cheche,1.584962500721156,False,True,False,False,Very Weak
+gracie,2.584962500721156,False,True,False,False,Weak
+connor,1.9182958340544896,False,True,False,False,Very Weak
+hello1,2.251629167387823,False,True,True,False,Very Weak
+valentina,2.7254805569978684,False,True,False,False,Weak
+melody,2.584962500721156,False,True,False,False,Weak
+darling,2.807354922057605,False,True,False,False,Weak
+sammy,1.9219280948873625,False,True,False,False,Very Weak
+jamie,2.3219280948873626,False,True,False,False,Very Weak
+santos,2.251629167387823,False,True,False,False,Very Weak
+abcdefg,2.807354922057605,False,True,False,False,Weak
+joanne,2.251629167387823,False,True,False,False,Very Weak
+candy,2.3219280948873626,False,True,False,False,Very Weak
+fuckyou2,2.75,False,True,True,False,Weak
+loser,2.3219280948873626,False,True,False,False,Very Weak
+dominic,2.521640636343319,False,True,False,False,Weak
+pebbles,2.2359263506290334,False,True,False,False,Very Weak
+sunshine1,2.7254805569978675,False,True,True,False,Weak
+swimming,2.5,False,True,False,False,Weak
+millie,1.9182958340544896,False,True,False,False,Very Weak
+loving,2.584962500721156,False,True,False,False,Weak
+gangster,2.75,False,True,False,False,Weak
+blessed,2.2359263506290326,False,True,False,False,Very Weak
+compaq,2.584962500721156,False,True,False,False,Weak
+taurus,2.251629167387823,False,True,False,False,Very Weak
+gloria,2.584962500721156,False,True,False,False,Weak
+tyler,2.3219280948873626,False,True,False,False,Very Weak
+aaron,1.9219280948873625,False,True,False,False,Very Weak
+darkangel,2.9477027792200907,False,True,False,False,Weak
+kitkat,1.9182958340544896,False,True,False,False,Very Weak
+megan,2.3219280948873626,False,True,False,False,Very Weak
+dreams,2.584962500721156,False,True,False,False,Weak
+sweetpea,2.4056390622295667,False,True,False,False,Very Weak
+bettyboop,2.5032583347756456,False,True,False,False,Weak
+jessica1,2.75,False,True,True,False,Weak
+cynthia,2.807354922057605,False,True,False,False,Weak
+cheyenne,2.1556390622295667,False,True,False,False,Very Weak
+ferrari,2.1280852788913944,False,True,False,False,Very Weak
+dustin,2.584962500721156,False,True,False,False,Weak
+iubire,2.251629167387823,False,True,False,False,Very Weak
+a123456,2.807354922057605,False,True,True,False,Weak
+snowball,2.75,False,True,False,False,Weak
+purple1,2.521640636343319,False,True,True,False,Weak
+violet,2.584962500721156,False,True,False,False,Weak
+darren,2.251629167387823,False,True,False,False,Very Weak
+starwars,2.25,False,True,False,False,Very Weak
+bestfriends,3.095795255000934,False,True,False,False,Weak
+inlove,2.584962500721156,False,True,False,False,Weak
+kelly,1.9219280948873625,False,True,False,False,Very Weak
+batista,2.2359263506290334,False,True,False,False,Very Weak
+karla,1.9219280948873625,False,True,False,False,Very Weak
+sophia,2.584962500721156,False,True,False,False,Weak
+chacha,1.584962500721156,False,True,False,False,Very Weak
+biteme,2.251629167387823,False,True,False,False,Very Weak
+marian,2.251629167387823,False,True,False,False,Very Weak
+sydney,2.251629167387823,False,True,False,False,Very Weak
+sexyme,2.251629167387823,False,True,False,False,Very Weak
+pogiako,2.521640636343319,False,True,False,False,Weak
+gerald,2.584962500721156,False,True,False,False,Weak
+jordan1,2.807354922057605,False,True,True,False,Weak
+010203,1.7924812503605783,False,False,True,False,Very Weak
+daddy1,1.7924812503605783,False,True,True,False,Very Weak
+zachary,2.521640636343319,False,True,False,False,Weak
+daddysgirl,2.8464393446710154,False,True,False,False,Weak
+billabong,2.7254805569978675,False,True,False,False,Weak
+carebear,2.25,False,True,False,False,Very Weak
+froggy,2.251629167387823,False,True,False,False,Very Weak
+pinky,2.3219280948873626,False,True,False,False,Very Weak
+erika,2.3219280948873626,False,True,False,False,Very Weak
+oscar,2.3219280948873626,False,True,False,False,Very Weak
+skater,2.584962500721156,False,True,False,False,Weak
+raiders,2.521640636343319,False,True,False,False,Weak
+nenita,2.251629167387823,False,True,False,False,Very Weak
+tigger1,2.521640636343319,False,True,True,False,Weak
+ashley1,2.807354922057605,False,True,True,False,Weak
+charlie1,3.0,False,True,True,False,Weak
+gatito,2.251629167387823,False,True,False,False,Very Weak
+lokita,2.584962500721156,False,True,False,False,Weak
+maldita,2.521640636343319,False,True,False,False,Weak
+buttercup,2.7254805569978675,False,True,False,False,Weak
+nichole,2.807354922057605,False,True,False,False,Weak
+bambam,1.584962500721156,False,True,False,False,Very Weak
+nothing,2.521640636343319,False,True,False,False,Weak
+glitter,2.521640636343319,False,True,False,False,Weak
+bella,1.9219280948873625,False,True,False,False,Very Weak
+amber,2.3219280948873626,False,True,False,False,Very Weak
+apple,1.9219280948873625,False,True,False,False,Very Weak
+123789,2.584962500721156,False,False,True,False,Weak
+sister,2.251629167387823,False,True,False,False,Very Weak
+zacefron,3.0,False,True,False,False,Weak
+tokiohotel,2.6464393446710157,False,True,False,False,Weak
+loveya,2.584962500721156,False,True,False,False,Weak
+lindsey,2.807354922057605,False,True,False,False,Weak
+money,2.3219280948873626,False,True,False,False,Very Weak
+lovebug,2.807354922057605,False,True,False,False,Weak
+bubblegum,2.4193819456463714,False,True,False,False,Very Weak
+marissa,2.235926350629033,False,True,False,False,Very Weak
+dreamer,2.2359263506290334,False,True,False,False,Very Weak
+darkness,2.75,False,True,False,False,Weak
+cecilia,2.2359263506290334,False,True,False,False,Very Weak
+lollypop,1.9056390622295665,False,True,False,False,Very Weak
+nicolas,2.807354922057605,False,True,False,False,Weak
+google,1.9182958340544896,False,True,False,False,Very Weak
+lindsay,2.807354922057605,False,True,False,False,Weak
+cooper,2.251629167387823,False,True,False,False,Very Weak
+passion,2.521640636343319,False,True,False,False,Weak
+kristine,2.75,False,True,False,False,Weak
+green,1.9219280948873625,False,True,False,False,Very Weak
+puppies,2.1280852788913944,False,True,False,False,Very Weak
+ariana,1.7924812503605783,False,True,False,False,Very Weak
+fuckme,2.584962500721156,False,True,False,False,Weak
+chubby,2.251629167387823,False,True,False,False,Very Weak
+raquel,2.584962500721156,False,True,False,False,Weak
+lonely,2.251629167387823,False,True,False,False,Very Weak
+anderson,2.75,False,True,False,False,Weak
+sammie,2.251629167387823,False,True,False,False,Very Weak
+sexybitch,3.1699250014423126,False,True,False,False,Weak
+mario,2.3219280948873626,False,True,False,False,Very Weak
+butter,2.251629167387823,False,True,False,False,Very Weak
+willow,1.9182958340544896,False,True,False,False,Very Weak
+roxana,2.251629167387823,False,True,False,False,Very Weak
+mememe,1.0,False,True,False,False,Very Weak
+caroline,3.0,False,True,False,False,Weak
+susana,1.9182958340544896,False,True,False,False,Very Weak
+kristen,2.807354922057605,False,True,False,False,Weak
+baller,2.251629167387823,False,True,False,False,Very Weak
+hotstuff,2.5,False,True,False,False,Weak
+carter,2.251629167387823,False,True,False,False,Very Weak
+stacey,2.584962500721156,False,True,False,False,Weak
+babylove,2.75,False,True,False,False,Weak
+angelina,2.5,False,True,False,False,Weak
+miller,2.251629167387823,False,True,False,False,Very Weak
+scorpion,2.75,False,True,False,False,Weak
+sierra,2.251629167387823,False,True,False,False,Very Weak
+playgirl,2.75,False,True,False,False,Weak
+sweet16,2.521640636343319,False,True,True,False,Weak
+012345,2.584962500721156,False,False,True,False,Weak
+rocker,2.251629167387823,False,True,False,False,Very Weak
+bhebhe,1.584962500721156,False,True,False,False,Very Weak
+gustavo,2.807354922057605,False,True,False,False,Weak
+marcos,2.584962500721156,False,True,False,False,Weak
+chance,2.251629167387823,False,True,False,False,Very Weak
+123qwe,2.584962500721156,False,True,True,False,Weak
+kayla,1.9219280948873625,False,True,False,False,Very Weak
+james1,2.584962500721156,False,True,True,False,Weak
+football1,2.7254805569978684,False,True,True,False,Weak
+eagles,2.251629167387823,False,True,False,False,Very Weak
+loveme1,2.521640636343319,False,True,True,False,Weak
+milagros,3.0,False,True,False,False,Weak
+stella,2.251629167387823,False,True,False,False,Very Weak
+lilmama,1.950212064914747,False,True,False,False,Very Weak
+beyonce,2.521640636343319,False,True,False,False,Weak
+lovely1,2.521640636343319,False,True,True,False,Weak
+rocky,2.3219280948873626,False,True,False,False,Very Weak
+daddy,1.370950594454669,False,True,False,False,Very Weak
+catdog,2.584962500721156,False,True,False,False,Weak
+armando,2.521640636343319,False,True,False,False,Weak
+margarita,2.4193819456463714,False,True,False,False,Very Weak
+151515,1.0,False,False,True,False,Very Weak
+loves,2.3219280948873626,False,True,False,False,Very Weak
+lolita,2.251629167387823,False,True,False,False,Very Weak
+202020,1.0,False,False,True,False,Very Weak
+gerard,2.251629167387823,False,True,False,False,Very Weak
+undertaker,2.9219280948873627,False,True,False,False,Weak
+amistad,2.521640636343319,False,True,False,False,Weak
+williams,2.5,False,True,False,False,Weak
+qwerty1,2.807354922057605,False,True,True,False,Weak
+freddy,2.251629167387823,False,True,False,False,Very Weak
+capricorn,2.7254805569978684,False,True,False,False,Weak
+caitlin,2.521640636343319,False,True,False,False,Weak
+bryan,2.3219280948873626,False,True,False,False,Very Weak
+delfin,2.584962500721156,False,True,False,False,Weak
+dance,2.3219280948873626,False,True,False,False,Very Weak
+cheerleader,2.5503407095463886,False,True,False,False,Weak
+password2,2.9477027792200907,False,True,True,False,Weak
+PASSWORD,2.75,True,False,False,False,Weak
+martha,2.251629167387823,False,True,False,False,Very Weak
+lizzie,1.9182958340544896,False,True,False,False,Very Weak
+georgia,2.521640636343319,False,True,False,False,Weak
+matthew1,2.75,False,True,True,False,Weak
+enrique,2.521640636343319,False,True,False,False,Weak
+zxcvbn,2.584962500721156,False,True,False,False,Weak
+badgirl,2.807354922057605,False,True,False,False,Weak
+andrew1,2.807354922057605,False,True,True,False,Weak
+141414,1.0,False,False,True,False,Very Weak
+11111111,0.0,False,False,True,False,Very Weak
+dancing,2.521640636343319,False,True,False,False,Weak
+cuteme,2.251629167387823,False,True,False,False,Very Weak
+booger,2.251629167387823,False,True,False,False,Very Weak
+amelia,2.251629167387823,False,True,False,False,Very Weak
+vampire,2.807354922057605,False,True,False,False,Weak
+skyline,2.807354922057605,False,True,False,False,Weak
+chiquita,2.75,False,True,False,False,Weak
+angeles,2.521640636343319,False,True,False,False,Weak
+scoobydoo,2.281036112553424,False,True,False,False,Very Weak
+janine,2.251629167387823,False,True,False,False,Very Weak
+tamara,1.7924812503605783,False,True,False,False,Very Weak
+carlitos,3.0,False,True,False,False,Weak
+money1,2.584962500721156,False,True,True,False,Weak
+sheila,2.584962500721156,False,True,False,False,Weak
+justme,2.584962500721156,False,True,False,False,Weak
+ireland,2.807354922057605,False,True,False,False,Weak
+kittycat,2.4056390622295667,False,True,False,False,Very Weak
+hotdog,2.251629167387823,False,True,False,False,Very Weak
+yamaha,1.7924812503605783,False,True,False,False,Very Weak
+tristan,2.521640636343319,False,True,False,False,Weak
+harvey,2.584962500721156,False,True,False,False,Weak
+israel,2.584962500721156,False,True,False,False,Weak
+legolas,2.521640636343319,False,True,False,False,Weak
+michelle1,2.725480556997868,False,True,True,False,Weak
+maddie,2.251629167387823,False,True,False,False,Very Weak
+angie,2.3219280948873626,False,True,False,False,Very Weak
+cinderella,2.9219280948873627,False,True,False,False,Weak
+jesuschrist,3.0271691184406184,False,True,False,False,Weak
+lester,2.251629167387823,False,True,False,False,Very Weak
+ashton,2.584962500721156,False,True,False,False,Weak
+ilovejesus,2.9219280948873627,False,True,False,False,Weak
+tazmania,2.4056390622295667,False,True,False,False,Very Weak
+remember,1.9056390622295665,False,True,False,False,Very Weak
+xxxxxx,0.0,False,True,False,False,Very Weak
+tekiero,2.521640636343319,False,True,False,False,Weak
+thebest,2.2359263506290334,False,True,False,False,Very Weak
+princesita,3.121928094887363,False,True,False,False,Weak
+lucky7,2.584962500721156,False,True,True,False,Weak
+jesucristo,3.121928094887363,False,True,False,False,Weak
+peewee,1.2516291673878228,False,True,False,False,Very Weak
+paloma,2.251629167387823,False,True,False,False,Very Weak
+buddy1,2.251629167387823,False,True,True,False,Very Weak
+deedee,0.9182958340544894,False,True,False,False,Very Weak
+miriam,1.9182958340544896,False,True,False,False,Very Weak
+april,2.3219280948873626,False,True,False,False,Very Weak
+patches,2.807354922057605,False,True,False,False,Weak
+regina,2.584962500721156,False,True,False,False,Weak
+janice,2.584962500721156,False,True,False,False,Weak
+cowboys,2.521640636343319,False,True,False,False,Weak
+myself,2.584962500721156,False,True,False,False,Weak
+lipgloss,2.5,False,True,False,False,Weak
+jazmin,2.584962500721156,False,True,False,False,Weak
+rosita,2.584962500721156,False,True,False,False,Weak
+happy1,2.251629167387823,False,True,True,False,Very Weak
+felipe,2.251629167387823,False,True,False,False,Very Weak
+chichi,1.584962500721156,False,True,False,False,Very Weak
+pangit,2.584962500721156,False,True,False,False,Weak
+mierda,2.584962500721156,False,True,False,False,Weak
+genius,2.584962500721156,False,True,False,False,Weak
+741852963,3.1699250014423126,False,False,True,False,Weak
+hernandez,2.7254805569978684,False,True,False,False,Weak
+awesome,2.521640636343319,False,True,False,False,Weak
+walter,2.584962500721156,False,True,False,False,Weak
+tinker,2.584962500721156,False,True,False,False,Weak
+arturo,2.251629167387823,False,True,False,False,Very Weak
+silvia,2.251629167387823,False,True,False,False,Very Weak
+melvin,2.584962500721156,False,True,False,False,Weak
+celeste,2.1280852788913944,False,True,False,False,Very Weak
+pussycat,2.75,False,True,False,False,Weak
+gorgeous,2.5,False,True,False,False,Weak
+david1,2.251629167387823,False,True,True,False,Very Weak
+molly,1.9219280948873625,False,True,False,False,Very Weak
+honeyko,2.521640636343319,False,True,False,False,Weak
+mylife,2.584962500721156,False,True,False,False,Weak
+animal,2.251629167387823,False,True,False,False,Very Weak
+penguin,2.521640636343319,False,True,False,False,Weak
+babyboo,1.8423709931771088,False,True,False,False,Very Weak
+loveu,2.3219280948873626,False,True,False,False,Very Weak
+simpsons,2.4056390622295667,False,True,False,False,Very Weak
+lupita,2.584962500721156,False,True,False,False,Weak
+boomer,2.251629167387823,False,True,False,False,Very Weak
+panthers,3.0,False,True,False,False,Weak
+hollywood,2.4193819456463714,False,True,False,False,Very Weak
+alfredo,2.807354922057605,False,True,False,False,Weak
+musica,2.584962500721156,False,True,False,False,Weak
+johnson,2.2359263506290326,False,True,False,False,Very Weak
+ilovegod,2.75,False,True,False,False,Weak
+hawaii,1.9182958340544896,False,True,False,False,Very Weak
+sparkle,2.807354922057605,False,True,False,False,Weak
+kristina,2.75,False,True,False,False,Weak
+sexymama,2.5,False,True,False,False,Weak
+crazy,2.3219280948873626,False,True,False,False,Very Weak
+valerie,2.521640636343319,False,True,False,False,Weak
+spencer,2.521640636343319,False,True,False,False,Weak
+scarface,2.5,False,True,False,False,Weak
+hardcore,2.75,False,True,False,False,Weak
+098765,2.584962500721156,False,False,True,False,Weak
+00000000,0.0,False,False,True,False,Very Weak
+winter,2.584962500721156,False,True,False,False,Weak
+hailey,2.584962500721156,False,True,False,False,Weak
+trixie,2.251629167387823,False,True,False,False,Very Weak
+hayden,2.584962500721156,False,True,False,False,Weak
+micheal,2.807354922057605,False,True,False,False,Weak
+wesley,2.251629167387823,False,True,False,False,Very Weak
+242424,1.0,False,False,True,False,Very Weak
+0987654321,3.321928094887362,False,False,True,False,Weak
+marisol,2.807354922057605,False,True,False,False,Weak
+nikita,2.251629167387823,False,True,False,False,Very Weak
+daisy,2.3219280948873626,False,True,False,False,Very Weak
+jeremiah,2.75,False,True,False,False,Weak
+pineapple,2.4193819456463714,False,True,False,False,Very Weak
+mhine,2.3219280948873626,False,True,False,False,Very Weak
+isaiah,1.9182958340544896,False,True,False,False,Very Weak
+christmas,2.9477027792200907,False,True,False,False,Weak
+cesar,2.3219280948873626,False,True,False,False,Very Weak
+lolipop,1.950212064914747,False,True,False,False,Very Weak
+butterfly1,3.121928094887363,False,True,True,False,Weak
+chloe,2.3219280948873626,False,True,False,False,Very Weak
+lawrence,2.75,False,True,False,False,Weak
+xbox360,2.521640636343319,False,True,True,False,Weak
+sheena,2.251629167387823,False,True,False,False,Very Weak
+murphy,2.584962500721156,False,True,False,False,Weak
+madalina,2.4056390622295667,False,True,False,False,Very Weak
+anamaria,2.0,False,True,False,False,Very Weak
+gateway,2.521640636343319,False,True,False,False,Weak
+debbie,1.9182958340544896,False,True,False,False,Very Weak
+yourmom,2.235926350629033,False,True,False,False,Very Weak
+blonde,2.584962500721156,False,True,False,False,Weak
+jasmine1,3.0,False,True,True,False,Weak
+please,2.251629167387823,False,True,False,False,Very Weak
+bubbles1,2.4056390622295667,False,True,True,False,Very Weak
+jimmy,1.9219280948873625,False,True,False,False,Very Weak
+beatriz,2.807354922057605,False,True,False,False,Weak
+poopoo,0.9182958340544894,False,True,False,False,Very Weak
+diamonds,2.75,False,True,False,False,Weak
+whitney,2.807354922057605,False,True,False,False,Weak
+friendship,3.121928094887363,False,True,False,False,Weak
+sweetness,2.113283334294875,False,True,False,False,Very Weak
+pauline,2.807354922057605,False,True,False,False,Weak
+desiree,2.1280852788913944,False,True,False,False,Very Weak
+trouble,2.807354922057605,False,True,False,False,Weak
+741852,2.584962500721156,False,False,True,False,Weak
+united,2.584962500721156,False,True,False,False,Weak
+marley,2.584962500721156,False,True,False,False,Weak
+brian,2.3219280948873626,False,True,False,False,Very Weak
+barbara,1.556656707462823,False,True,False,False,Very Weak
+hannah1,1.950212064914747,False,True,True,False,Very Weak
+bananas,1.8423709931771086,False,True,False,False,Very Weak
+julius,2.251629167387823,False,True,False,False,Very Weak
+leanne,1.9182958340544896,False,True,False,False,Very Weak
+sandy,2.3219280948873626,False,True,False,False,Very Weak
+marie1,2.584962500721156,False,True,True,False,Weak
+anita,1.9219280948873625,False,True,False,False,Very Weak
+lover1,2.584962500721156,False,True,True,False,Weak
+chicago,2.521640636343319,False,True,False,False,Weak
+twinkle,2.807354922057605,False,True,False,False,Weak
+pantera,2.521640636343319,False,True,False,False,Weak
+february,2.75,False,True,False,False,Weak
+birthday,3.0,False,True,False,False,Weak
+shadow1,2.807354922057605,False,True,True,False,Weak
+qwert,2.3219280948873626,False,True,False,False,Very Weak
+bebita,2.251629167387823,False,True,False,False,Very Weak
+87654321,3.0,False,False,True,False,Weak
+twilight,2.5,False,True,False,False,Weak
+imissyou,2.5,False,True,False,False,Weak
+pollito,2.2359263506290334,False,True,False,False,Very Weak
+ashlee,2.2516291673878226,False,True,False,False,Very Weak
+tucker,2.584962500721156,False,True,False,False,Weak
+cookie1,2.521640636343319,False,True,True,False,Weak
+shelly,2.251629167387823,False,True,False,False,Very Weak
+catalina,2.4056390622295667,False,True,False,False,Very Weak
+147852369,3.1699250014423126,False,False,True,False,Weak
+beckham,2.807354922057605,False,True,False,False,Weak
+simone,2.584962500721156,False,True,False,False,Weak
+nursing,2.521640636343319,False,True,False,False,Weak
+iloveyou!,2.9477027792200907,False,True,False,True,Weak
+eugene,1.7924812503605783,False,True,False,False,Very Weak
+torres,2.251629167387823,False,True,False,False,Very Weak
+damian,2.251629167387823,False,True,False,False,Very Weak
+123123123,1.584962500721156,False,False,True,False,Very Weak
+joshua1,2.807354922057605,False,True,True,False,Weak
+bobby,1.370950594454669,False,True,False,False,Very Weak
+babyface,2.5,False,True,False,False,Weak
+andre,2.3219280948873626,False,True,False,False,Very Weak
+donald,2.251629167387823,False,True,False,False,Very Weak
+daniel1,2.807354922057605,False,True,True,False,Weak
+panther,2.807354922057605,False,True,False,False,Weak
+dinamo,2.584962500721156,False,True,False,False,Weak
+mommy,1.370950594454669,False,True,False,False,Very Weak
+juliana,2.521640636343318,False,True,False,False,Weak
+cassandra,2.4193819456463714,False,True,False,False,Very Weak
