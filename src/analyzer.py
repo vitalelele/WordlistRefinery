@@ -64,4 +64,49 @@ class PasswordAnalyzer:
         # use scipy.stats.entropy for optimized C-implementation.
         # base=2 gives result in 'bits', standard for info theory.
         return entropy(probs, base=2)
+    
+    @classmethod
+    def vectorize_entropy(cls, series: pd.Series) -> pd.Series:
+        """
+        Applies entropy calculation over a Pandas Series.
+        
+        Note on Performance:
+        While true vectorization of string-level character frequency is 
+        complex in pure NumPy, using `apply` with a heavily optimized 
+        function is often the most readable and maintainable approach 
+        for string data. The overhead of `apply` is mitigated by the speed
+        of the underlying C-routines in scipy.
+        
+        Args:
+            series (pd.Series): A series of password strings.
+            
+        Returns:
+            pd.Series: A series of float entropy values.
+        """
+        # Ensure input is string to avoid type errors during apply.
+        # The.astype(str) call handles any non-string artifacts from loading.
+        return series.astype(str).apply(cls.calculate_shannon_entropy)
+
+    @classmethod
+    def filter_wpa2_compliant(cls, df: pd.DataFrame, column: str) -> pd.DataFrame:
+        """
+        Filters the DataFrame to retain only WPA2-compliant passwords.
+        
+        WPA2 requirements:
+        - Length: 8 to 63 characters
+        - Charset: Printable ASCII
+        
+        Args:
+            df (pd.DataFrame): The input dataframe.
+            column (str): The name of the column containing passwords.
+            
+        Returns:
+            pd.DataFrame: A filtered dataframe.
+        """
+        # Vectorized boolean mask using regex.
+        # The 'str.contains' accessor in pandas is highly optimized, especially
+        # when using the PyArrow backend.
+        mask = df[column].astype(str).str.contains(cls.WPA2_PATTERN, regex=True)
+        return df[mask]
+
 
