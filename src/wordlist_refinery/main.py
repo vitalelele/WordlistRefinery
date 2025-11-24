@@ -8,7 +8,8 @@ Features:
 - Entropy calculation and filtering
 - WPA2 compliance filtering
 - Rich table preview in console
-- ASCII table export for .txt files
+- ASCII table export for small wordlists
+- CSV export for large wordlists
 - Markdown table export with --markdown-table
 - Complexity tagging and strength classification
 
@@ -17,6 +18,7 @@ Author: Antonio Vitale
 
 import time
 from pathlib import Path
+from typing import Optional
 
 import pandas as pd
 import typer
@@ -31,11 +33,19 @@ from wordlist_refinery.analyzer import PasswordAnalyzer
 app = typer.Typer(help="WordlistRefinery: High-Performance Password List Tool")
 console = Console()
 
+# How many rows in the FIRST chunk we consider "small" for ASCII file output
+MAX_ASCII_ROWS_FOR_FILE = 5_000
+# How many rows to show in console per chunk
+MAX_PREVIEW_ROWS = 20
 
-# ASCII table renderer
+
+# ---------------------------------------------------------
+# ASCII TABLE RENDERER (for small datasets)
+# ---------------------------------------------------------
 def dataframe_to_ascii_table(df: pd.DataFrame) -> str:
     """
     Convert a DataFrame to an ASCII table suitable for .txt output.
+    Intended for small datasets (e.g., demo, debugging).
     """
     cols = [
         "password",
@@ -58,7 +68,9 @@ def dataframe_to_ascii_table(df: pd.DataFrame) -> str:
     return tabulate(df, headers="keys", tablefmt="grid")
 
 
-# markdown table renderer
+# ---------------------------------------------------------
+# MARKDOWN TABLE RENDERER
+# ---------------------------------------------------------
 def dataframe_to_markdown_table(df: pd.DataFrame) -> str:
     """
     Convert a DataFrame into a clean Markdown table.
@@ -86,7 +98,10 @@ def dataframe_to_markdown_table(df: pd.DataFrame) -> str:
 
     return header + sep + "\n".join(rows)
 
-# main CLI command
+
+# ---------------------------------------------------------
+# MAIN CLI COMMAND
+# ---------------------------------------------------------
 @app.command()
 def analyze(
     input_file: str = typer.Argument(..., help="Path to the source wordlist file"),
@@ -106,7 +121,12 @@ def analyze(
 ) -> None:
     """
     Process a wordlist in chunks, apply filters, print Rich tables in console,
-    and export refined output as ASCII tables, Markdown tables, or raw passwords.
+    and export refined output as:
+
+    - raw passwords (default, no --add-metadata)
+    - ASCII tables for small datasets (with --add-metadata)
+    - CSV for large datasets (with --add-metadata)
+    - Markdown tables (with --add-metadata --markdown-table)
     """
 
     input_path = Path(input_file)
@@ -132,18 +152,22 @@ def analyze(
 
     loader = DataLoader(str(input_path), chunk_size=chunk_size)
 
+    # Decide ONCE, after the first chunk, whether to use ASCII or CSV for metadata
+    use_ascii_output: Optional[bool] = None
+    csv_header_written = False
+
     try:
         for chunk_df in loader.load_chunks():
             original_count = len(chunk_df)
             if chunk_df.empty:
                 continue
 
-            # Entropy calculation
+            # 1. Entropy calculation
             chunk_df["entropy"] = PasswordAnalyzer.vectorize_entropy(
                 chunk_df["password"]
             )
 
-            # Entropy filter
+            # 2. Entropy filter
             if min_entropy > 0:
                 chunk_df = chunk_df[chunk_df["entropy"] >= min_entropy]
             if chunk_df.empty:
@@ -152,7 +176,7 @@ def analyze(
                 )
                 continue
 
-            # WPA2 filter
+            # 3. WPA2 filter
             if wpa2_compliant:
                 chunk_df = PasswordAnalyzer.filter_wpa2_compliant(
                     chunk_df, "password"
@@ -163,15 +187,14 @@ def analyze(
                 )
                 continue
 
-            # Add metadata
+            # 4. Add metadata
             if add_metadata:
                 chunk_df = PasswordAnalyzer.tag_complexity(chunk_df, "password")
                 chunk_df["strength"] = chunk_df["entropy"].apply(
                     PasswordAnalyzer.classify_strength
                 )
 
-                MAX_PREVIEW_ROWS = 20
-
+                # ---------------------- RICH PREVIEW IN CONSOLE ----------------------
                 table = Table(
                     title="WordlistRefinery - Chunk Preview",
                     show_header=True,
@@ -207,17 +230,46 @@ def analyze(
                         f"Full results have been written to [bold]{output_path}[/bold]."
                     )
 
-            # Output writing
+                # ---------------------- DECIDE ASCII vs CSV (once) -------------------
+                if use_ascii_output is None:
+                    # Decision based on the FIRST chunk size (before filters):
+                    # - small wordlists (like demos/tests) -> ASCII in file
+                    # - large wordlists (rockyou, leaks)  -> CSV in file
+                    use_ascii_output = original_count <= MAX_ASCII_ROWS_FOR_FILE
+
+            # 5. Output writing
             if add_metadata:
                 if markdown_table:
+                    # Explicit markdown mode: user asked for it, always use Markdown
                     md = dataframe_to_markdown_table(chunk_df)
                     with output_path.open("a", encoding="utf-8") as f:
                         f.write(md + "\n\n")
+
                 else:
-                    ascii_table = dataframe_to_ascii_table(chunk_df)
-                    with output_path.open("a", encoding="utf-8") as f:
-                        f.write(ascii_table + "\n\n")
+                    # Auto: ASCII for small datasets, CSV for large ones
+                    if use_ascii_output:
+                        ascii_table = dataframe_to_ascii_table(chunk_df)
+                        with output_path.open("a", encoding="utf-8") as f:
+                            f.write(ascii_table + "\n\n")
+                    else:
+                        # Large dataset mode: efficient CSV output
+                        with output_path.open("a", encoding="utf-8") as f:
+                            if not csv_header_written:
+                                chunk_df.to_csv(
+                                    f,
+                                    header=True,
+                                    index=False,
+                                )
+                                csv_header_written = True
+                            else:
+                                chunk_df.to_csv(
+                                    f,
+                                    header=False,
+                                    index=False,
+                                )
+
             else:
+                # Raw password-only output (one per line)
                 chunk_df["password"].to_csv(
                     output_path,
                     mode="a",
