@@ -131,27 +131,4 @@ class PasswordAnalyzer:
         df['has_digit'] = s_col.str.contains(cls.HAS_DIGIT, regex=True)
         df['has_special'] = s_col.str.contains(cls.HAS_SPECIAL, regex=True)
         
-        return df  
-
-    @classmethod
-    def tag_complexity(cls, df: pd.DataFrame, column: str) -> pd.DataFrame:
-        """
-        Adds boolean columns indicating presence of character classes.
-        Useful for filtering based on specific policy requirements.
-        
-        Args:
-            df (pd.DataFrame): Input dataframe.
-            column (str): Password column name.
-            
-        Returns:
-            pd.DataFrame: Dataframe with added 'has_upper', 'has_digit', etc.
-        """
-        # Utilizing the Arrow string backend if available for speed.
-        s_col = df[column].astype(str)
-        
-        df['has_upper'] = s_col.str.contains(cls.HAS_UPPER, regex=True)
-        df['has_lower'] = s_col.str.contains(cls.HAS_LOWER, regex=True)
-        df['has_digit'] = s_col.str.contains(cls.HAS_DIGIT, regex=True)
-        df['has_special'] = s_col.str.contains(cls.HAS_SPECIAL, regex=True)
-        
         return df
