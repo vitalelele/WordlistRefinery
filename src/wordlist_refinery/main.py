@@ -188,7 +188,15 @@ def analyze(
 
                 # Decide ASCII vs CSV only on first chunk
                 if use_ascii_output is None:
-                    use_ascii_output = original_count <= MAX_ASCII_ROWS_FOR_FILE
+                    suffix = output_path.suffix.lower()
+
+                    # If the user explicitly chose .csv, we always write real CSV
+                    if suffix == ".csv":
+                        use_ascii_output = False
+                    else:
+                        # For .txt or other extensions: small datasets -> ASCII, large -> CSV
+                        use_ascii_output = original_count <= MAX_ASCII_ROWS_FOR_FILE
+
 
             # Output writing
             if add_metadata:
