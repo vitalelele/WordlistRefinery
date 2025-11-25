@@ -512,10 +512,9 @@ pytest -q
 If all tests pass, you should see output similar to:
 
 ```
-11 passed in 0.23s
+33 passed in 0.37s
 ```
-
-<img width="979" height="266" alt="image" src="https://github.com/user-attachments/assets/7ed0fc4e-839f-4afa-ba70-d0224dc6360f" />
+<img width="1132" height="265" alt="image" src="https://github.com/user-attachments/assets/d8906ce2-ea50-4afa-9f60-15b13dea54fa" />
 
 ### Test Layout
 
