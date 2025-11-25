@@ -662,7 +662,9 @@ Planned and completed features for future releases.
 | ASCII chunk preview (Rich table)                                       | **Completed** |
 | CSV output for large datasets                                          | **Completed** |
 | Markdown table export                                                  | **Completed** |
+| WPA2-compliant filtering                                               | **Completed** |
 | GPU-accelerated entropy computation                                    | *Working on*  |
+| **Target-aware filtering profiles (Windows AD, SSH, PIN, RDP, etc.)**  | *Planned*     |
 | Parallel processing of chunks (multiprocessing)                        | *Planned*     |
 | Advanced statistical analysis (frequency graphs, distribution metrics) | *Planned*     |
 | Export to Parquet format                                               | *Planned*     |
