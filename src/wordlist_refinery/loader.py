@@ -59,10 +59,12 @@ class DataLoader:
                 batch: List[str] = []
 
                 for line in f:
-                    # Strip newline characters but keep everything else intact
-                    password = line.rstrip("\r\n")
+                    # Remove only newline characters first
+                    raw = line.rstrip("\r\n")
 
-                    # Skip completely empty lines
+                    # Treat pure whitespace as empty as well
+                    password = raw.strip()
+
                     if not password:
                         continue
 
